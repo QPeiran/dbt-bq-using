@@ -1,6 +1,6 @@
 [[source]]
-url = "http://pypi.org/simple"
-verify_ssl = false
+url = "https://pypi.org/simple"
+verify_ssl = true
 name = "pypi"
 
 [packages]
@@ -8,4 +8,4 @@ name = "pypi"
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
